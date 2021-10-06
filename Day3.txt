@@ -1,0 +1,22 @@
+Q1. Print elements of array using while & do while.
+     ->	  let i = 0;
+	  let arr = ["Hello" , 21 , 36 , "Welcome"];
+
+	  *while loop*
+	  ------------
+	  while(i<arr.length])
+	  {
+	   console.log(arr[i]);
+	   i++;
+	  }
+
+	  *do while loop*
+	  ---------------
+	  do{
+	  console.log(arr[i]);
+	  i++;
+	  }while(i<arr.length);
+
+Q2. Rewrite the grade example we did in If else-if using ternary operator.
+	->let marks = 65;
+	 let grade = (marks>=75 && marks<=100)? console.log("A") : (marks>=60 && marks<=75)? console.log("B") :(marks>=35 && marks<=60)? console.log("C") : console.log("F");
