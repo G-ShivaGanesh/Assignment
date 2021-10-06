@@ -1,0 +1,15 @@
+Q1. Difference between let and var.
+	->Variable with var can be redeclared to some other value.
+	  While variable could not be redeclared if it is defined with let.
+	->Scope of a variable defined with let is limited to the block in which it is declared.
+	  Variable declared with var has the global scope.
+	  So var is rather a keyword which defines a variable globally regardless of block scope.
+	->The scope of let not only limited to the block in which it is defined but variable with let also do not get added with global window object even if it get declared outside of any block.
+	  But we can access variable with var from window object if it is defined globally.
+	->Due to limited scope, let variables are usually used when there is limited use of those variables such as in for loops, while loops or inside the scope of if conditions,etc.
+	  While var variable is used when value of variable need to be less change and used to accessed globally.
+
+Q2. Why are null, array printed as object type in console.
+	->All derived data type is always a type object. 
+	  null is an instance of Object. null represents the intentional absence of any object value.
+	  arrays aren’t primitive, they are objects
